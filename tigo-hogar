@@ -1,0 +1,108 @@
+
+<!DOCTYPE html5>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><center>Asesoria Internet Hogar o Empresas</center></title>
+
+
+<style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #007bb5;
+            color: #fff;
+            padding: 10px;
+        }
+
+        nav {
+            background-color: #333;
+            color: #3d3e75;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 0 10px;
+        }
+
+        .banner {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+
+        .banner img {
+            width: 80%;
+        }
+
+        .contenedor {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .button {
+            background-color: #007bb5;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        .button.llamar {
+            background-color: #005a8d; /* Cambio de color azul para el botón de llamar */
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+
+<header>
+    <h1><center>Asesoria en Internte para su hogar o empresa </center></h1>
+</header>
+<body>
+    
+<nav>
+    <a href="#">Hogar</a>
+    <a href="#">Pymes</a>
+    <a href="#">Móvil</a>
+    <a href="#">Contacto</a>
+</nav>
+<div class="banner">
+    <img src="imagen1.jpg" alt="imagen1">
+  
+</div>  
+    
+    <div class="contenedor">
+        <h2>Ventas Hogar Ofertas Marzo TIGO</h2>
+        <p>¡Contáctanos para obtener más información!</p>
+        <a href="https://api.whatsapp.com/send?phone=3052103313" class="button" target="_blank">WhatsApp</a>
+    </div>
+    <div class="contenedor">
+        <h2>Llámanos</h2>
+        <p>Estamos aquí para ayudarte</p>
+        <a href="tel:+573052103313" class="button llamar">Llámanos</a>
+    </div>
+    <footer>
+        &copy; 2024 Inversioneslagp.com.co Intermediario Comercial Tigo
+    </footer>
+</html>
